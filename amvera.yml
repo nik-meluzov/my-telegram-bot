@@ -1,8 +1,7 @@
 Яндекс:
-  environment: python
-  tools:
-    name: pip
-    version: "3.11"
+  name: my-telegram-bot
+  description: PDF to Excel converter
+  version: "1.0"
 build:
   requirements: requirements.txt
   useCache: true
